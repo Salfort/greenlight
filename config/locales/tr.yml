@@ -47,27 +47,27 @@
 
 tr:
   opengraph:
-    description: "Sorunsuz sanal işbirliği ve çevrim içi öğrenme deneyimi sağlayan, güvenilir açık kaynaklı internet konferansı çözümü BigBlueButton uygulamasını kullanarak öğrenin."
+    description: "Sorunsuz sanal işbirliği ve çevrim içi öğrenme deneyimi sağlayan, güvenilir açık kaynaklı internet konferansı çözümü PBS Amsterdam | Meeting  uygulamasını kullanarak öğrenin."
   meeting:
     moderator_message: "Toplantıya çağırmak istediğiniz kişilere bu bağlantıyı gönderin:"
     access_code: "Erişim kodu: %{code}"
   email:
     activation:
       account_activation: Hesap etkinleştirme
-      welcome_to_bbb: BigBlueButton uygulamasına hoş geldiniz!
+      welcome_to_bbb: PBS Amsterdam | Meeting  uygulamasına hoş geldiniz!
       get_started: Lütfen başlamak için aşağıdaki düğmeye tıklayarak hesabınızı etkinleştirin.
       activate_account: Hesabı etkinleştir
       link_expires: Bu bağlantı 24 saat sonra geçersiz olacak.
       if_link_expires: "Bağlantının süresi geçerse, yeni bir etkinleştirme e-postası almak için oturum açın."
     invitation:
-      invitation_to_join: BigBlueButton çağrısı
-      you_have_been_invited: "%{name} tarafından bir BigBlueButton hesabı açmaya çağrıldınız."
+      invitation_to_join: PBS Amsterdam | Meeting  çağrısı
+      you_have_been_invited: "%{name} tarafından bir PBS Amsterdam | Meeting  hesabı açmaya çağrıldınız."
       get_started: Hesap açmak için aşağıdaki düğmeye tıklayın ve yönergeleri izleyin.
       valid_invitation: Çağrı 24 saat boyunca geçerlidir.
       sign_up: Hesap aç
     new_user_signup:
-      new_user: Yeni BigBlueButton kullanıcı hesabı açılışı
-      new_user_description: Yeni bir kullanıcı BigBlueButton kullanmak için hesap açtı.
+      new_user: Yeni PBS Amsterdam | Meeting  kullanıcı hesabı açılışı
+      new_user_description: Yeni bir kullanıcı PBS Amsterdam | Meeting  kullanmak için hesap açtı.
       name: "Adı: %{name}"
       email: "E-posta adresi: %{email}"
       admin_panel: "Yönetim panosu"
