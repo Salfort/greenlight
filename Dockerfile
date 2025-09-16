@@ -30,7 +30,7 @@ RUN apk update \
 
 FROM base as prod
 
-RUN addgroup -S -g 1000 greenlight && adduser -S -G greenlight -u 999 greenlight
+#RUN addgroup -S -g 1000 greenlight && adduser -S -G greenlight -u 999 greenlight
 
 ARG PACKAGES='libpq-dev tzdata imagemagick yarn bash'
 COPY --from=build $RAILS_ROOT/vendor/bundle ./vendor/bundle
@@ -46,10 +46,10 @@ RUN apk update \
 
 # ---> DOĞRU YER BURASI <---
 # Sadece tmp'yi değil, kopyalanan TÜM dosyaların sahibini 'greenlight' yap
-RUN chown -R greenlight:greenlight /usr/src/app
+#RUN chown -R greenlight:greenlight /usr/src/app
 
 # 'USER 999' komutu bu adımdan sonra gelmeli
 
-USER 999
+#USER 999
 EXPOSE ${PORT}
 ENTRYPOINT [ "./bin/start" ]
