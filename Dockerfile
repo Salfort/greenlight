@@ -44,7 +44,11 @@ RUN apk update \
     && apk upgrade \
     && update-ca-certificates
 
-RUN chown -R greenlight /usr/src/app/tmp
+# ---> DOĞRU YER BURASI <---
+# Sadece tmp'yi değil, kopyalanan TÜM dosyaların sahibini 'greenlight' yap
+RUN chown -R greenlight:greenlight /usr/src/app
+
+# 'USER 999' komutu bu adımdan sonra gelmeli
 
 USER 999
 EXPOSE ${PORT}
